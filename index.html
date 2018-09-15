@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <title>Crystal Collector Game</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div id="crystalGroup">
+                </div>
+            </div>
+            <div class="col-md-8">
+                <h1 id="h1">Crystal Collector</h1>
+                <br>
+                <p class="instructions">You will be given a random number at the start of the game.</p>
+                <br>
+                <p class="instructions">There are four crystals below. By clicking on a crystal you will add a specific amount
+                    of points to your total score.</p>
+                <br>
+                <p class="instructions">You win the game by matching your total score to random number, you lose the game
+                    if your score goes above the random number.</p>
+                <br>
+                <p class="instructions">The value of each crystal is hidden from you until you click on it.</p>
+                <br>
+                <p class="instructions">Each time when the game starts, the game will change the values of each crystal.</p>
+                <br>
+                <div id="targetBox">Target to reach: </div>
+                <br>
+                <div id="totalScoreBox">Your total score is: </div>
+                <br>
+                <div id="winBox">Wins: </div>
+                <br>
+                <div id="loseBox">Losses: </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>

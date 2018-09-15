@@ -1,0 +1,60 @@
+#crystalGroup {
+    border: 20px black;
+    width:20px;
+    height:150px;
+    margin-top: 60px;
+}
+
+.crystal {
+    border: 20px red;
+    background-color:black;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    float:left;
+}
+
+.instructions {
+    float:left;
+    background: teal;
+    width: 800px;
+    height: 68px;
+    padding:10px;
+    margin-bottom: 50px;
+    text-align:center;
+}
+
+#targetBox {
+    background: orange;
+    height: 100px;
+    width: 150px;
+    float: left;
+    margin-right: 25px;
+    text-align:center;
+}
+
+#totalScoreBox {
+    background: orange;
+    height: 100px;
+    width: 150px;
+    float: left;
+    margin-right: 25px;
+    text-align:center;
+}
+
+#winBox {
+    background: orange;
+    height: 100px;
+    width: 150px;
+    float: left;
+    margin-right: 25px;
+    text-align:center;
+}
+
+#loseBox {
+    background: orange;
+    height: 100px;
+    width: 150px;
+    float: left;
+    text-align:center;
+}
